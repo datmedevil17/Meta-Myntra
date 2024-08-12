@@ -9,8 +9,9 @@ import StoreWall2 from '../components/StoreWall2'
 import StoreWall3 from '../components/StoreWall3'
 import StoreWall4 from '../components/StoreWall4'
 import StoreWall5 from '../components/StoreWall5'
-import Door from '../components/Door'
-
+import Sofa from '../components/Sofa'
+import Sofa2 from '../components/Sofa2'
+import Sofa3 from '../components/Sofa3'
 const Metaverse = () => {
   return (
     <div className='container'>
@@ -24,7 +25,10 @@ const Metaverse = () => {
             <StoreWall3/>
             <StoreWall4/>
             <StoreWall5/>
-            {/* <Door/> */}
+            <Sofa/>
+            <Sofa2/>
+            <Sofa3/>
+            
 
         </Canvas>      
     </div>
